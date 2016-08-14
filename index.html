@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tetris</title>
+	<meta charset="utf-8" />
+
+	<!-- build:css style.css -->
+	<link rel="stylesheet" href="css/main.css" />
+	<!-- endbuild -->
+</head>
+<body>
+	<canvas id="board_canvas" width="120" height="250">
+		Your browser does not support HTML5 Canvas.
+	</canvas>
+	<canvas id="shadow_canvas" width="120" height="250"></canvas>
+	<canvas id="animated_canvas" width="120" height="250"></canvas>
+
+	<div id="scoreHolder" class="score">
+		<div>Score: <span id="score">0</span></div>
+		<div>Max score: <span id="maxScore">0</span></div>
+	</div>
+
+	<!-- build:js app.js -->
+	<script src="js/tetris.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
